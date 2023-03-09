@@ -7,6 +7,8 @@ body {
     background-repeat:no-repeat;
 }
 
+/* Haha, same here as with the QR one, fonts still included in files though
+
 @font-face{
     font-family: RedHat;
     src: url(./Fonts/RedHatDisplay-Medium.ttf);
@@ -23,7 +25,9 @@ body {
     font-family: RedHat;
     src: url(./Fonts/RedHatDisplay-Regular.ttf);
     font-weight:normal;
-}
+} 
+
+*/
 
 #MainFrame{
     border-radius:15px;
@@ -48,8 +52,8 @@ body {
     font-size:30px;
     text-align:center;
     height:30px;
-    font-family: RedHat, serif;
-    font-weight:bold;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
     color:rgb(46, 46, 46);
 }
 
@@ -58,7 +62,7 @@ body {
     text-align:center;
     height:50px;
     width:250px;
-    font-family: RedHat, serif;
+    font-family: 'Red Hat Display', sans-serif;
     font-weight:normal;
     margin-left:100px;
     margin-top:-10px;
@@ -81,8 +85,8 @@ body {
 
 #AnnualTitle{
     font-size:18px;
-    font-family: RedHat, serif;
-    font-weight: bold;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
     margin-left:80px;
     margin-top:-55px;
     color:rgb(46, 46, 46);
@@ -90,8 +94,8 @@ body {
 
 #AnnualPrice{
     font-size:16px;
-    font-family: RedHat, serif;
-    font-weight: normal;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
     margin-left:86px;
     margin-top: -15px;
     color:rgb(119, 119, 119);
@@ -100,7 +104,7 @@ body {
 #AnnualChange{
     position:absolute;
     font-size:14px;
-    font-family: RedHat, serif;
+    font-family: 'Red Hat Display', sans-serif;
     font-weight: bold;
     text-decoration:underline;
     margin-left: 270px;
@@ -122,8 +126,8 @@ body {
     width:350px;
     height:50px;
     margin-left: 50px;
-    font-family: RedHat, serif;
-    font-weight: bold;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
     color:rgb(255, 255, 255);
     background-color:hsl(245, 75%, 52%);
     box-shadow: 0px 5px 5px hsl(0, 0%, 79%);
@@ -140,8 +144,8 @@ body {
     height:20;
     margin-left:50%;
     margin-top:15px;
-    font-family: RedHat, serif;
-    font-weight: bold;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
     left:-50px;
     background:none;
     border:0px;
