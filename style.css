@@ -1,0 +1,153 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("./imgs/pattern-background-desktop.svg");
+    background-color:hsl(225, 100%, 94%);
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+@font-face{
+    font-family: RedHat;
+    src: url(./Fonts/RedHatDisplay-Medium.ttf);
+    font-weight:400;
+}
+
+@font-face{
+    font-family: RedHat;
+    src: url(./Fonts/RedHatDisplay-Bold.ttf);
+    font-weight:bold;
+}
+
+@font-face{
+    font-family: RedHat;
+    src: url(./Fonts/RedHatDisplay-Regular.ttf);
+    font-weight:normal;
+}
+
+#MainFrame{
+    border-radius:15px;
+    position:absolute;
+    background-color:white;
+    width:450px;
+    height:600px;
+    left:50%;
+    top:50%;
+    margin-left:-225px;
+    margin-top:-300px;
+}
+
+#HeroImg{
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+    width:450px;
+    height:220px;
+}
+
+#Title{
+    font-size:30px;
+    text-align:center;
+    height:30px;
+    font-family: RedHat;
+    font-weight:bold;
+    color:rgb(46, 46, 46);
+}
+
+#Desc{
+    font-size:16px;
+    text-align:center;
+    height:50px;
+    width:250px;
+    font-family: RedHat;
+    font-weight:normal;
+    margin-left:100px;
+    margin-top:-10px;
+    color:rgb(128, 128, 128);
+}
+
+#AnnualPlan{
+    border-radius:10px;
+    width:350px;
+    height:90px;
+    background-color:rgb(245, 245, 245);
+    margin-left:50px;
+    margin-top:30px;
+}
+
+#MusicIcon{
+    margin-top:20px;
+    margin-left:20px;
+}
+
+#AnnualTitle{
+    font-size:18px;
+    font-family: RedHat;
+    font-weight: bold;
+    margin-left:80px;
+    margin-top:-55px;
+    color:rgb(46, 46, 46);
+}
+
+#AnnualPrice{
+    font-size:16px;
+    font-family: RedHat;
+    font-weight: normal;
+    margin-left:86px;
+    margin-top: -15px;
+    color:rgb(119, 119, 119);
+}
+
+#AnnualChange{
+    position:absolute;
+    font-size:14px;
+    font-family: RedHat;
+    font-weight: bold;
+    text-decoration:underline;
+    margin-left: 270px;
+    margin-top: -45px;
+    color:rgb(104, 104, 211);
+    background:none;
+    border:0px;
+}
+
+#AnnualChange:hover{
+    color:rgb(125, 125, 255);
+    text-decoration:none;
+}
+
+#Proceed{
+    border-radius:12px;
+    border:0px;
+    font-size:16px;
+    width:350px;
+    height:50px;
+    margin-left: 50px;
+    font-family: RedHat;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    background-color:hsl(245, 75%, 52%);
+    box-shadow: 0px 5px 5px hsl(0, 0%, 79%);
+}
+
+#Proceed:hover{
+    box-shadow: 0px 5px 5px hsl(0, 0%, 49%);
+    background-color:hsl(245, 70%, 43%);
+}
+
+#Cancel{
+    position:absolute;
+    width:100px;
+    height:20;
+    margin-left:50%;
+    margin-top:15px;
+    font-family: RedHat;
+    font-weight: bold;
+    left:-50px;
+    background:none;
+    border:0px;
+    color:rgb(102, 102, 102);
+}
+
+#Cancel:hover{
+    text-decoration:underline;
+}
