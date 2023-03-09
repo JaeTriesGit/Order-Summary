@@ -48,7 +48,7 @@ body {
     font-size:30px;
     text-align:center;
     height:30px;
-    font-family: RedHat;
+    font-family: RedHat, serif;
     font-weight:bold;
     color:rgb(46, 46, 46);
 }
@@ -58,7 +58,7 @@ body {
     text-align:center;
     height:50px;
     width:250px;
-    font-family: RedHat;
+    font-family: RedHat, serif;
     font-weight:normal;
     margin-left:100px;
     margin-top:-10px;
@@ -81,7 +81,7 @@ body {
 
 #AnnualTitle{
     font-size:18px;
-    font-family: RedHat;
+    font-family: RedHat, serif;
     font-weight: bold;
     margin-left:80px;
     margin-top:-55px;
@@ -90,7 +90,7 @@ body {
 
 #AnnualPrice{
     font-size:16px;
-    font-family: RedHat;
+    font-family: RedHat, serif;
     font-weight: normal;
     margin-left:86px;
     margin-top: -15px;
@@ -100,7 +100,7 @@ body {
 #AnnualChange{
     position:absolute;
     font-size:14px;
-    font-family: RedHat;
+    font-family: RedHat, serif;
     font-weight: bold;
     text-decoration:underline;
     margin-left: 270px;
@@ -122,7 +122,7 @@ body {
     width:350px;
     height:50px;
     margin-left: 50px;
-    font-family: RedHat;
+    font-family: RedHat, serif;
     font-weight: bold;
     color:rgb(255, 255, 255);
     background-color:hsl(245, 75%, 52%);
@@ -140,7 +140,7 @@ body {
     height:20;
     margin-left:50%;
     margin-top:15px;
-    font-family: RedHat;
+    font-family: RedHat, serif;
     font-weight: bold;
     left:-50px;
     background:none;
